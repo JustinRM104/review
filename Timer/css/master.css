@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  text-align: center;
+
+  background: #181a1b;
+}
+
+#times {
+  width: 25%;
+  margin: 0 auto;
+  background: white;
+  min-height: 15em;
+  max-height: 15em;
+  min-width: 20em;
+  overflow: auto;
+  border-radius: 0.5em;
+}
+
+.amount {
+  position: absolute;
+  left: -0.25em;
+  bottom: 0em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.timeBar {
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 2em;
+  height: 2em;
+  background: white;
+  border-radius: 1em;
+  box-shadow: 0px 0px 10px;
+}
+
+.line {
+  margin: 0 auto;
+  margin-top: -2em;
+  border: 0;
+  width: 1em;
+  background: white;
+  height: 10em;
+  z-index: 2;
+}
+
+input {
+  cursor: pointer;
+  margin: 1em;
+  margin-top: 10vh;
+  margin-bottom: 0;
+  padding: 1em 3em;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: bolder;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  border: 0.25em solid white;
+
+  transition-duration: 1s;
+  border-radius: 0.5em;
+}
+
+input:hover {
+  background: black;
+  color: white;
+  border: 0.25em solid white;
+  text-decoration: underline;
+  transition-duration: 0.4s;
+}
+
+.time {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.top {
+  margin: 0 auto;
+  margin-top: 1em;
+
+  width: 20%;
+  text-align: center;
+  border: 0.25em solid white;
+
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  border-radius: 0.5em;
+}
+.top h1 {text-decoration: overline}
+.top h2 {text-decoration: underline; margin-top: -1em}
